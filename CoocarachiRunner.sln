@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoocarachiRunner", "CoocarachiRunner\CoocarachiRunner.csproj", "{EC236BC5-0E40-4DD6-BAAB-4D23C8C8A046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91D75673-B0F3-44A1-B79C-82D5E02F5A2B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC236BC5-0E40-4DD6-BAAB-4D23C8C8A046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC236BC5-0E40-4DD6-BAAB-4D23C8C8A046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC236BC5-0E40-4DD6-BAAB-4D23C8C8A046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC236BC5-0E40-4DD6-BAAB-4D23C8C8A046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76F2789F-4446-4207-A6FD-5B3CC33E1C17}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿<Window x:Class="CoocarachiRunner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoocarachiRunner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="{Binding Height}" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+       
+        <Button Content="Start" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left"
+                Margin="5" Command="{Binding RunCommand}"/>
+        <ContentControl Content="{Binding Canvas,UpdateSourceTrigger=PropertyChanged}" Grid.Row="1"/>
+    </Grid>
+</Window>
